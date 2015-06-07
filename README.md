@@ -18,6 +18,10 @@ We expect to have notifications for future items, the ability to search past ite
 * Writers to document our work today as well as the reqs for features discussed but not viable with current data structure.
 
 ---
+##About
+Council Connect is a text alert system to make it easier to track Austin City Council agenda items. When you search for an issue that matters to you, you can also use your search terms to set an alert that sends a text message to your phone when the issue appears again on a future agenda. Then read our guides to help you understand the council's meeting process and participate by giving citizen testimony.
+
+---
 ###Description of the Code Design
 Austin City Council's website is scraped to extract meeting agenda items.  The items are then loaded into a wordpress/bbpress framework.  The backend is written using PHP to control the flow and interface with the MySql database.  Client side code is written in JQuery to standarize browser behavior for DOM manimpulation and event handling.  Responsive Bootstrap classes are used to make the front end compatible with a variety of device types and sizes.  
 
